@@ -1,4 +1,4 @@
-package Lab_A;
+package Step_A;
 
 import java.util.Scanner;
 
