@@ -11,7 +11,7 @@ public class A01 {
 		this.age = 0;
 	}
 	
-	public void problem() {
+	public void printAge() {
 		Scanner s = new Scanner(System.in);
 		System.out.print("태어난 연도를 입력하시오. ");
 		

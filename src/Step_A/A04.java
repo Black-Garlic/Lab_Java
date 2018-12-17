@@ -11,7 +11,7 @@ public class A04 {
 		this.pyung_area = 0;
 	}
 	
-	public void problem() {
+	public void printPyung() {
 		Scanner s = new Scanner(System.in);
 		
 		System.out.print("아파트의 분양 면적을 입력하시오 ");

@@ -13,7 +13,7 @@ public class A03 {
 		this.area = 0;
 	}
 	
-	public void problem() {
+	public void printArea() {
 		Scanner s = new Scanner(System.in);
 		
 		System.out.print("직사각형의 가로 크기를 입력하시오. ");

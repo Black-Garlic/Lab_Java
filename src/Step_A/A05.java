@@ -11,7 +11,7 @@ public class A05 {
 		this.seconds = 0;
 	}
 	
-	public void problem() {
+	public void printSecond() {
 		Scanner s = new Scanner(System.in);
 		
 		System.out.print("날 수를 입력하세요. ");

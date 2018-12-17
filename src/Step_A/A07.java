@@ -15,7 +15,7 @@ public class A07 {
 		this.bytes = 0;
 	}
 	
-	public void problem() {
+	public void printFileSize() {
 		Scanner s = new Scanner(System.in);
 		
 		System.out.print("파일 용량을 기가바이트 단위로 입력하세요. ");

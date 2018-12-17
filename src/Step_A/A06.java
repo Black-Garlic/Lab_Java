@@ -17,7 +17,7 @@ public class A06 {
 		this.average = 0;
 	}
 	
-	public void problem() {
+	public void printScore() {
 		Scanner s = new Scanner(System.in);
 		
 		System.out.print("국어 점수를 입력하세요. ");

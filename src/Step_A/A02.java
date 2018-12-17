@@ -11,7 +11,7 @@ public class A02 {
 		this.f_degree = 0;
 	}
 	
-	public void problem() {
+	public void printDegree() {
 		Scanner s = new Scanner(System.in);
 		System.out.print("섭씨 온도를 입력하시오. ");
 		c_degree = s.nextDouble();
