@@ -7,7 +7,7 @@ public class A01 {
 	private int age;
 	
 	public A01() {
-		this.birth_year = 2014;
+		this.birth_year = 2018;
 		this.age = 0;
 	}
 	
@@ -16,7 +16,7 @@ public class A01 {
 		System.out.print("태어난 연도를 입력하시오. ");
 		
 		birth_year = s.nextInt();
-		age = 2014 - birth_year + 1;
+		age = 2018 - birth_year + 1;
 		
 		System.out.println("당신의 나이는 " + age + "살입니다");
 	}
