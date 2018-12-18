@@ -28,7 +28,7 @@ public class A06 {
 		math = s.nextInt();
 		
 		total = kor + eng + math;
-		average = total / 3;
+		average = (double) total / 3;
 		
 		System.out.println("입력하신 점수의 총점은 " + total + "이고,");
 		System.out.print("평균은 ");

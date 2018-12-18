@@ -1,15 +1,15 @@
-package Step_B;
+package Step_C;
 
 import java.util.Scanner;
 
-public class B06 {
+public class C06 {
 	private int kor;
 	private int eng;
 	private int math;
 	private int total;
 	private double average;
 	
-	public B06() {
+	public C06() {
 		getScore();
 	}
 	
@@ -30,11 +30,16 @@ public class B06 {
 	public void printScore() {
 		System.out.println("입력하신 점수의 총점은 " + total + "이고,");
 		System.out.printf("평균은 %.1f 입니다.\n", average);
-		if (kor >= 90)
-			System.out.println("국어점수가 우수합니다.");
-		if (eng >= 90)
-			System.out.println("영어점수가 우수합니다.");
-		if (math >= 90)
-			System.out.println("수학점수가 우수합니다.");
+		if (average >= 90) {
+			System.out.println("수 입니다");
+		} else if (average >= 80 && average < 90) {
+			System.out.println("우 입니다");
+		} else if (average >= 70 && average < 80) {
+			System.out.println("미 입니다");
+		} else if (average >= 60 && average < 70) {
+			System.out.println("양 입니다");
+		} else if (average < 60) {
+			System.out.println("가 입니다");
+		}
 	}
 }
