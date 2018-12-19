@@ -10,7 +10,7 @@ public class StepCManager {
 			printf("---------------------\n");
 			printf("1. 나이 계산 및 연령대 판정\n");
 			printf("2. 물의 온도 구간 판정\n");
-			printf("3. 직사각형 형태 팥정\n");
+			printf("3. 직사각형 형태 판정\n");
 			printf("4. 아파트 평형 계산 및 종류 판정\n");
 			printf("5. 연중 날짜 계산\n");
 			printf("6. 점수 계산\n");

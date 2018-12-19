@@ -3,6 +3,7 @@ import java.util.Scanner;
 import Step_A.StepAManager;
 import Step_B.StepBManager;
 import Step_C.StepCManager;
+import Step_D.StepDManager;
 public class WBManager {
 
 	public static void main(String[] args) {
@@ -16,6 +17,8 @@ public class WBManager {
 			new StepBManager();
 		if(step.equalsIgnoreCase("C"))
 			new StepCManager();
+		if(step.equalsIgnoreCase("D"))
+			new StepDManager();
 		System.out.printf("종료되었습니다.\n");
 	}	
 }
