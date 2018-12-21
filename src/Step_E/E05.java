@@ -25,25 +25,23 @@ public class E05 {
 	}
 	
 	public void printDan() {
+		int count = 0;
 		for (i = 1; i <= 4; i++) {
 			switch(mode) {
 			case 1:
-				for (j = 1; j <= 9; j++) {
-					System.out.printf("%d * %d = %d\t", i * 2 + 1, j, calculate(i * 2 + 1, j));
-					if (j % column == 0)
-						System.out.println();
-				}
+				count = 1;
 				break;
 			case 2:
-				for (j = 1; j <= 9; j++) {
-					System.out.printf("%d * %d = %d\t", i * 2, j, calculate(i * 2, j));
-					if (j % column == 0)
-						System.out.println();
-				}
+				count = 0;
 				break;
 			default :
 				break;	
-			}			
+			}	
+			for (j = 1; j <= 9; j++) {
+				System.out.printf("%d * %d = %d\t", i * 2 + count, j, calculate(i * 2 + 1, j));
+				if (j % column == 0)
+					System.out.println();
+			}
 			System.out.println();
 		}
 	}

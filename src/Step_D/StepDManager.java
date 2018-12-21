@@ -2,18 +2,6 @@ package Step_D;
 
 import java.util.Scanner;
 
-import Step_C.C01;
-import Step_C.C02;
-import Step_C.C03;
-import Step_C.C04;
-import Step_C.C05;
-import Step_C.C06;
-import Step_C.C07;
-import Step_C.C08;
-import Step_C.C09;
-import Step_C.C10;
-import Step_C.C11;
-
 public class StepDManager {
 	public StepDManager() {
 		int menu;

@@ -24,8 +24,8 @@ public class D09 {
 		}
 	}
 	
-	public int calDan(int i) {
-		return i * dan;
+	public int calDan(int count) {
+		return count * dan;
 	}
 	
 	public void printDan() {
