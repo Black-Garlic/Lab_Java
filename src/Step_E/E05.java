@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class E05 {
 	private int mode;
 	private int column;
-	private int i, j;
 	
 	public E05() {
 		getMode();
@@ -25,8 +24,8 @@ public class E05 {
 	}
 	
 	public void printDan() {
-		for (i = 1; i <= 4; i++) {
-			for (j = 1; j <= 9; j++) {
+		for (int i = 1; i <= 4; i++) {
+			for (int j = 1; j <= 9; j++) {
 				System.out.printf("%d * %d = %d\t", i * 2 + mode % 2, j, calculate(i * 2 + mode % 2, j));
 				if (j % column == 0)
 					System.out.println();

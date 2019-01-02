@@ -7,7 +7,6 @@ public class F08 {
 	private int newnum;
 	private int count;
 	private boolean dup;
-	private int i;
 	
 	public F08() {
 		getNum();
@@ -36,14 +35,14 @@ public class F08 {
 	}
 	
 	public boolean checkDup(int num) {
-		for (i = 0; i < count ; i++) {
+		for (int i = 0; i < count ; i++) {
 			if (number[i] == num) return false;
 		}
 		return true;
 	}
 	
 	public void printNum() {
-		for (i = 0; i < 10; i++) {
+		for (int i = 0; i < 10; i++) {
 			System.out.printf("%d번째 숫자는 %d입니다\n", i + 1, number[i]);
 		}
 	}

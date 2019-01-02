@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class D09 {
 	private int dan;
-	private int i;
 	
 	public D09() {
 		getDan();
@@ -29,7 +28,7 @@ public class D09 {
 	}
 	
 	public void printDan() {
-		for (i = 1; i <= 9; i++) {
+		for (int i = 1; i <= 9; i++) {
 			System.out.println(dan + " * " + i + " = " + calDan(i)); 
 		}
 	}

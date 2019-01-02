@@ -9,7 +9,6 @@ public class D06 {
 	private int count2; //중수형 아파트
 	private int count3; //중형 아파트
 	private int count4; //대형 아파트
-	private int i;
 	
 	public D06() {
 		count1 = 0;
@@ -22,7 +21,7 @@ public class D06 {
 	
 	public void getArea() {
 		Scanner s = new Scanner(System.in);
-		for (i = 0; i < 10; i++) {
+		for (int i = 0; i < 10; i++) {
 			System.out.print("아파트의 분양 면적(제곱미터)을 입력하시오 ");
 			m2_area = s.nextDouble();
 			pyung_area = m2_area / 3.305;

@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class D01 {
 	private int number;
 	private int totalsum;
-	private int i;
 	
 	public D01() {
 		getNum();
@@ -20,7 +19,7 @@ public class D01 {
 	
 	public int calculate() {
 		totalsum = 0;
-		for (i = 1; i <= number; i++) {
+		for (int i = 1; i <= number; i++) {
 			totalsum = totalsum + i;
 		}
 		return totalsum;

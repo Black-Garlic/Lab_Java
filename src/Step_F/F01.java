@@ -8,7 +8,6 @@ public class F01 {
 	private int second;
 	private int second_max_index;
 	private int newnum;
-	private int i;
 	
 	public F01() {
 		getNum();
@@ -17,7 +16,7 @@ public class F01 {
 	public void getNum() {
 		Scanner s = new Scanner(System.in);
 		
-		for (i = 0 ; i < 10; i++) {
+		for (int i = 0 ; i < 10; i++) {
 			System.out.printf("%d번째 수를 입력하세요 ", i + 1);
 			num[i] = s.nextInt();
 			findSecond(i);

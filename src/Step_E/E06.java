@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class E06 {
 	private int rows, columns;
 	private int number;
-	private int i, j;
 	
 	public E06() {
 		getSize();
@@ -20,8 +19,8 @@ public class E06 {
 	}
 	
 	public void printNum() {
-		for (i = 1; i <= rows; i++) {
-			for (j = 1; j <= columns; j++) {
+		for (int i = 1; i <= rows; i++) {
+			for (int j = 1; j <= columns; j++) {
 				number = i * j;
 				System.out.printf("%4d", number);
 			}

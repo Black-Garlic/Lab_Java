@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class E04 {
 	private int mode;
-	private int i, j;
 	
 	public E04() {
 		getMode();
@@ -22,17 +21,17 @@ public class E04 {
 	}
 	
 	public void printDan() {
-		for (i = 1; i <= 4; i++) {
+		for (int i = 1; i <= 4; i++) {
 			switch(mode) {
 			case 1:
-				for (j = 1; j <= 9; j++) {
+				for (int j = 1; j <= 9; j++) {
 					System.out.printf("%d * %d = %d\t", i * 2 + 1, j, calculate(i * 2 + 1, j));
 					if (j % 3 == 0)
 						System.out.println();
 				}
 				break;
 			case 2:
-				for (j = 1; j <= 9; j++) {
+				for (int j = 1; j <= 9; j++) {
 					System.out.printf("%d * %d = %d\t", i * 2, j, calculate(i * 2, j));
 					if (j % 3 == 0)
 						System.out.println();

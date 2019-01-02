@@ -7,7 +7,6 @@ public class F06 {
 	private int newnum;
 	private int total;
 	private int ho;
-	private int i, j;
 	
 	public F06() {
 		getHo();
@@ -18,8 +17,8 @@ public class F06 {
 		
 		total = 0;
 		
-		for (i = 0 ; i < 5; i++) {
-			for (j = 0; j < 3; j++) {
+		for (int i = 0 ; i < 5; i++) {
+			for (int j = 0; j < 3; j++) {
 				ho = (i + 1) * 100 + j + 1;
 				
 				System.out.printf("%d호에 살고 있는 사람의 숫자를 입력하세요 ", ho);

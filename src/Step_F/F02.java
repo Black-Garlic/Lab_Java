@@ -8,8 +8,6 @@ public class F02 {
 	private double total;
 	private double average;
 	private int newnum;
-	private int i;
-	
 	
 	public F02() {
 		getScore();
@@ -41,7 +39,7 @@ public class F02 {
 	public void calculate() {
 		total = 0;
 		
-		for (i = 0; i < 10; i++) {
+		for (int i = 0; i < 10; i++) {
 			if (score[i] != maxscore && score[i] != minscore)
 				total = total + score[i];
 		}

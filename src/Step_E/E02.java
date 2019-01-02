@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class E02 {
 	private int height;
 	private int blank;
-	private int i, j;
 	
 	public E02() {
 		getSize();
@@ -20,16 +19,16 @@ public class E02 {
 	}
 	
 	public void printTri() {
-		for (i = 1; i <= height; i++) {
-			for (j = 0; j < blank; j++) {
+		for (int i = 1; i <= height; i++) {
+			for (int j = 0; j < blank; j++) {
 				System.out.print(" ");
 			}
 			
-			for (j = 0; j < height - i; j++) {
+			for (int j = 0; j < height - i; j++) {
 				System.out.print(" ");
 			}
 			
-			for (j = 0; j < i; j++) {
+			for (int j = 0; j < i; j++) {
 				System.out.print("*");
 			}
 			

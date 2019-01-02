@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class H07 {
 	private String input;
-	private int i;
 
 	public H07() {	}
 	
@@ -27,7 +26,7 @@ public class H07 {
 	
 	public void printResult() {
 		System.out.println("=> 총 문자의 개수는 " + input.length() + "개 입니다");
-		for (i = 0; i < input.length(); i++) {
+		for (int i = 0; i < input.length(); i++) {
 			System.out.println("=> " + input.substring(i, i + 1));
 		}
 		System.out.println();

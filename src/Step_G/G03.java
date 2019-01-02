@@ -9,7 +9,6 @@ public class G03 {
 	private int kor, eng, math;
 	private int sum, grade;
 	private double average;
-	private int i, j;
 	
 	public G03() {
 		getScore();
@@ -18,7 +17,7 @@ public class G03 {
 	public void getScore() {
 		Scanner s = new Scanner(System.in);
 		
-		for (i = 0 ; i < 5; i++) {
+		for (int i = 0 ; i < 5; i++) {
 			System.out.printf("%d번 학생의 국어, 영어, 수학 점수를 입력하세요 ", i + 1);
 			kor = s.nextInt();
 			eng = s.nextInt();
@@ -32,9 +31,9 @@ public class G03 {
 	}
 	
 	public void calSubjectSum() {
-		for (i = 0; i < 3; i++) {
+		for (int i = 0; i < 3; i++) {
 			c_average[i] = 0;
-			for (j = 0; j < 5; j++) {
+			for (int j = 0; j < 5; j++) {
 				c_average[i] = c_average[i] + jumsu[j][i];
 			}
 		}
@@ -42,7 +41,7 @@ public class G03 {
 	
 	public void calStudentSum(int index) {
 		sum = 0;
-		for (i = 0; i < 3; i++) {
+		for (int i = 0; i < 3; i++) {
 			sum += jumsu[index][i];
 		}
 	}
@@ -72,13 +71,13 @@ public class G03 {
 	
 	public void printScore() {
 		System.out.println("1) 각 과목별 총점과 평균 점수");
-		for (i = 0; i < 3; i++) {
+		for (int i = 0; i < 3; i++) {
 			System.out.println(class_name[i] + " 과목 총점은 " + c_average[i] + " 평균은 " + calSubjectAverage(i) + "입니다");
 		}
 		
 		System.out.println("2) 각 학생별 총점과 평균 점수");
 		
-		for (j = 0; j < 5; j++) {
+		for (int j = 0; j < 5; j++) {
 			calStudentSum(j);
 			calStudentAverage();
 			System.out.printf("%d번 학생 점수 : 총점 %d, 평균 %.1f, 등급 %c\n", j + 1, sum, average, calGrade());

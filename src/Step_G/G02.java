@@ -7,7 +7,6 @@ public class G02 {
 	private double degrees[] = new double[10];
 	private String degree_name[] = {"냉수", "미온수", "온수", "끓는물"};
 	private int count[] = {0, 0, 0, 0};
-	private int i;
 	private int sel;
 	
 	
@@ -18,7 +17,7 @@ public class G02 {
 	public void getDegree() {
 		Scanner s = new Scanner(System.in);
 		
-		i = 0;
+		int i = 0;
 		while (i < 10) {
 			System.out.printf("%d번 물의 온도를 입력하세요 ", i + 1);
 			input_degree = s.nextDouble();
@@ -50,7 +49,7 @@ public class G02 {
 	}
 	
 	public void printDegree() {
-		for (i = 0; i < 10; i++) {
+		for (int i = 0; i < 10; i++) {
 			System.out.printf("%d번 물의 온도는 %.1f도 입니다. %s\n", i + 1, degrees[i], degree_name[calDegree(i)]);
 		}
 		System.out.println("냉수 입력 횟수 : " + count[0]);

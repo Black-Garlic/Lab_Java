@@ -11,7 +11,6 @@ public class G07 {
 	private int sum;
 	private int total_sum = 0;
 	private int membership = 0;
-	private int i, j;
 	
 	public G07() { }
 	
@@ -21,10 +20,10 @@ public class G07 {
 		System.out.print("오늘 방문한 팀 수를 입력하세요 ");
 		team_count = s.nextInt();
 		
-		for (i = 0; i < team_count; i++) {
+		for (int i = 0; i < team_count; i++) {
 			System.out.printf("%d번팀 인원수(초등학생, 청소년, 일반, 경로대상)를 입력하세요 ", i + 1);
 			
-			for (j = 0; j < 4; j++) {
+			for (int j = 0; j < 4; j++) {
 				count[j] = s.nextInt();
 			}
 			
@@ -39,7 +38,7 @@ public class G07 {
 	
 	public void calSale() {
 		sum = 0;
-		for (j = 0; j < 4; j++) {
+		for (int j = 0; j < 4; j++) {
 			v_count[j] += count[j];
 			total_count += count[j];
 			

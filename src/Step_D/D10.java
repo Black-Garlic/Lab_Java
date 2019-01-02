@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class D10 {
 	private int num1, num2;
-	private int i;
 	
 	public D10() {
 		getNum();
@@ -20,7 +19,7 @@ public class D10 {
 	
 	public void printNum() {
 		boolean first = true;
-		for (i = 1; i <= 100; i++) {
+		for (int i = 1; i <= 100; i++) {
 			if (i % num1 == 0 && i % num2 != 0) {
 				if(first) {
 					first = false;

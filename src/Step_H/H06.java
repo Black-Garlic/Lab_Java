@@ -1,6 +1,5 @@
 package Step_H;
 
-import java.util.Random;
 import java.util.Scanner;
 
 public class H06 {

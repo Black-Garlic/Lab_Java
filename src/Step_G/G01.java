@@ -12,7 +12,6 @@ public class G01 {
 	private int count_young;
 	private int count_adult;
 	private int count_old;
-	private int i;
 	
 	public G01() {
 		getAge();
@@ -52,7 +51,7 @@ public class G01 {
 	}
 	
 	public void printCount() {
-		for (i = 0; i <= count_person; i++) {
+		for (int i = 0; i <= count_person; i++) {
 			System.out.printf("%d번째 사람의 나이는 %d입니다\n", i + 1, age[i]);
 		}
 		System.out.println("유아는 " + count_baby + "명 입니다");

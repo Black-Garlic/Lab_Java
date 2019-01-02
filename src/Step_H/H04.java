@@ -7,7 +7,6 @@ public class H04 {
 	private int com_finger;
 	private int my_finger;
 	private int score[][] = new int[2][3];
-	private int i, j;
 	
 	public H04() {
 	}

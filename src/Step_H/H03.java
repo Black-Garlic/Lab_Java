@@ -6,7 +6,6 @@ import java.util.Scanner;
 public class H03 {
 	private int lotto_com[] = new int[6];
 	private int lotto_user[] = new int[6];
-	private int i;
 	private int count;
 	private int match_count;
 	
@@ -44,7 +43,7 @@ public class H03 {
 	public boolean checkLotto() {
 		if (lotto_user[count] < 1 || lotto_user[count] > 45) return false;
 		
-		for (i = 0; i < count; i++) {
+		for (int i = 0; i < count; i++) {
 			if (lotto_user[i] == lotto_user[count]) return false;
 		}
 		matchLotto(lotto_user[count]);
@@ -53,7 +52,7 @@ public class H03 {
 	
 	public void printLotto() {
 		System.out.print("\n이번 주의 로또 당첨 번호는 ");
-		for (i = 0; i < 6; i++) {
+		for (int i = 0; i < 6; i++) {
 			System.out.print(lotto_com[i] + "  ");
 		}
 		System.out.println("입니다\n");
@@ -62,7 +61,7 @@ public class H03 {
 	}
 	
 	public void matchLotto(int lottoNum) {
-		for (i = 0; i < 6; i++)
+		for (int i = 0; i < 6; i++)
 			if (lottoNum == lotto_com[i])
 				match_count++;
 	}

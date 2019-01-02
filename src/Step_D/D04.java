@@ -7,8 +7,7 @@ public class D04 {
 	private int count_young;
 	private int birth_year;
 	private int age;
-	private int i;
-		
+	
 	public D04() {
 		getNum();
 	}
@@ -21,7 +20,7 @@ public class D04 {
 		
 		count_young = 0;
 		
-		for (i = 0; i < count_all; i++) {
+		for (int i = 0; i < count_all; i++) {
 			System.out.print("태어난 년도를 입력하세요 ");
 			birth_year = s.nextInt();
 			calculate();

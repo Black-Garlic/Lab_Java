@@ -7,7 +7,6 @@ public class F05 {
 	private int bmi;
 	private int bmilist[][] = new int[10][3];
 	private int count;
-	private int i;
 	
 	public F05() {
 		getBMI();
@@ -16,7 +15,7 @@ public class F05 {
 	public void getBMI() {
 		Scanner s = new Scanner(System.in);
 		
-		for (i = 0 ; i < 10; i++) {
+		for (int i = 0 ; i < 10; i++) {
 			System.out.printf("%d번째 사람의 신장(cm)과 체중(kg)을 입력하세요 ", i + 1);
 			height = s.nextInt();
 			weight = s.nextInt();
@@ -29,7 +28,7 @@ public class F05 {
 	}
 	
 	public void printBMI() {
-		for (i = 0; i < 10; i++) {
+		for (int i = 0; i < 10; i++) {
 			if (bmilist[i][2] >= 25) {
 				System.out.printf("%d번째 사람이 비만입니다\n" , i + 1);
 				count++;

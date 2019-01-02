@@ -7,7 +7,6 @@ public class H02 {
 	private int lotto[] = new int[6];
 	private int count;
 	private String onemore;
-	private int i;
 	
 	public H02() {
 		onemore = "Y";
@@ -36,7 +35,7 @@ public class H02 {
 	
 	public void printLotto() {
 		System.out.print("생성된 로또 번호는 ");
-		for (i = 0; i < 6; i++) {
+		for (int i = 0; i < 6; i++) {
 			System.out.print(lotto[i] + "  ");
 		}
 		System.out.println("입니다");

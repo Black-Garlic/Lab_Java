@@ -7,7 +7,6 @@ public class H05 {
 	private int coins;
 	private int number[] = new int[3];
 	private int dummy;
-	private int i;
 	
 	public H05() {
 		getCoins();
@@ -54,7 +53,7 @@ public class H05 {
 		
 		System.out.print("게임 결과 : ");
 		
-		for (i = 0; i < 3; i++) {
+		for (int i = 0; i < 3; i++) {
 			number[i] = generator.nextInt(9) + 1;
 			System.out.print(number[i] + " ");
 		}

@@ -6,7 +6,6 @@ public class F09 {
 	private int monthdays[] = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
 	private int month, day;
 	private int day_count;
-	private int i;
 	
 	public F09() {
 		getDay();
@@ -30,7 +29,7 @@ public class F09 {
 	public void calDays() {
 		day_count = 0;
 		
-		for (i = 0; i < month - 1; i++) {
+		for (int i = 0; i < month - 1; i++) {
 			day_count += monthdays[i];
 		}
 		
