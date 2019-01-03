@@ -29,5 +29,7 @@ public class A07 {
 		System.out.println(megabytes + " 메가바이트,");
 		System.out.println(kilobytes + " 킬로바이트,");
 		System.out.println(bytes + " 바이트 입니다.");
+		
+		s.close();
 	}
 }

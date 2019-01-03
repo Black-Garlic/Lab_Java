@@ -7,7 +7,7 @@ public class G03 {
 	private int c_average[] = new int[3];
 	private String class_name[] = {"국어", "영어", "수학"};
 	private int kor, eng, math;
-	private int sum, grade;
+	private int sum;
 	private double average;
 	
 	public G03() {
@@ -28,6 +28,7 @@ public class G03 {
 			jumsu[i][2] = math;
 		}
 		calSubjectSum();
+		s.close();
 	}
 	
 	public void calSubjectSum() {

@@ -15,6 +15,8 @@ public class D01 {
 		
 		System.out.print("숫자를 입력하세요 ");
 		number = s.nextInt();
+		
+		s.close();
 	}
 	
 	public int calculate() {

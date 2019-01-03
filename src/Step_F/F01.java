@@ -7,7 +7,6 @@ public class F01 {
 	private int first;
 	private int second;
 	private int second_max_index;
-	private int newnum;
 	
 	public F01() {
 		getNum();
@@ -21,6 +20,7 @@ public class F01 {
 			num[i] = s.nextInt();
 			findSecond(i);
 		}
+		s.close();
 	}
 	
 	public void findSecond(int index) {

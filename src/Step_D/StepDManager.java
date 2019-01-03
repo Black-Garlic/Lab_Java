@@ -67,7 +67,7 @@ public class StepDManager {
 				break;
 			}
 		}
-		
+		s.close();
 	}
 	void printf(String s){System.out.print(s);} 
 }

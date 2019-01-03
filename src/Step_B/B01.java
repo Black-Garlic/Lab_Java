@@ -16,6 +16,8 @@ public class B01 {
 		
 		birth_year = s.nextInt();
 		age = 2018 - birth_year + 1;
+		
+		s.close();
 	}
 	
 	public void printAdult() {

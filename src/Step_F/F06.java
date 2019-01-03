@@ -28,6 +28,7 @@ public class F06 {
 				total = total + newnum;
 			}
 		}
+		s.close();
 	}
 	
 	public void printNum() {

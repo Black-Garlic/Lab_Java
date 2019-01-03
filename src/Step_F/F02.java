@@ -22,6 +22,7 @@ public class F02 {
 			findMaxMin(newnum);
 		}
 		calculate();
+		s.close();
 	}
 	
 	public void findMaxMin(int index) {
@@ -48,6 +49,6 @@ public class F02 {
 	}
 	
 	public void printScore() {
-		System.out.printf("가장 큰 점수와 가장 작은 점수를 제외한 8개의 점수에 대한 평균은 %.1f 입니다" , average);
+		System.out.printf("가장 큰 점수와 가장 작은 점수를 제외한 8개의 점수에 대한 평균은 %.1f 입니다\n" , average);
 	}
 }

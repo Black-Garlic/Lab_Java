@@ -22,6 +22,8 @@ public class B07 {
 		usb2 = s.nextLine();
 		
 		bytes = megabytes * 1024 * 1024;
+		
+		s.close();
 	}
 	
 	public int calculate() {

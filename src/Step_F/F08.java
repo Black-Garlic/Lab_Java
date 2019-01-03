@@ -6,7 +6,6 @@ public class F08 {
 	private int number[] = new int[10];
 	private int newnum;
 	private int count;
-	private boolean dup;
 	
 	public F08() {
 		getNum();
@@ -32,6 +31,7 @@ public class F08 {
 				count++;
 			}
 		}
+		s.close();
 	}
 	
 	public boolean checkDup(int num) {

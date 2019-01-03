@@ -32,6 +32,9 @@ public class I04 {
 		
 		System.out.print("메뉴를 선택해주세요. (종료 : 5) ");
 		select = s.nextInt();
+		
+		s.close();
+		
 		if (!(select == 1 || select == 2 || select == 3 || select == 4))
 			return -1;
 		return select;

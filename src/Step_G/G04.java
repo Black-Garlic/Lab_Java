@@ -31,8 +31,8 @@ public class G04 {
 				System.out.println("이에 대한 중개 수수료는 " + charge + "입니다");
 			}
 		}
-		
 		printCharge();
+		s.close();
 	}
 	
 	public void sell() {

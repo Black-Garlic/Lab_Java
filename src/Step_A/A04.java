@@ -21,5 +21,7 @@ public class A04 {
 		System.out.print("아파트의 평형은 ");
 		System.out.printf("%.1f", pyung_area);
 		System.out.println("입니다.");
+		
+		s.close();
 	}
 }

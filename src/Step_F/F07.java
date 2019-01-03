@@ -32,6 +32,7 @@ public class F07 {
 		}
 		calFloor();
 		calLine();
+		s.close();
 	}
 	
 	public void calFloor() {

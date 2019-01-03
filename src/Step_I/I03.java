@@ -18,6 +18,7 @@ public class I03 {
 			
 			askBiman(height, weight);
 		}
+		s.close();
 	}
 	
 	public void askBiman(int height, int weight) {

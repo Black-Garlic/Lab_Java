@@ -20,6 +20,8 @@ public class B08 {
 		num2 = s.nextInt();
 		System.out.println("세번째 숫자를 입력하세요 ");
 		num3 = s.nextInt();
+		
+		s.close();
 	}
 	
 	public void printCondition() {

@@ -30,6 +30,7 @@ public class I07 {
 				break;
 			}
 		}
+		s.close();
 	}
 	
 	public void showMenu() {
@@ -44,6 +45,8 @@ public class I07 {
 		
 		System.out.print("메뉴를 선택해주세요. (종료 : 5) ");
 		select = s.nextInt();
+		
+		s.close();
 		
 		return select;
 	}

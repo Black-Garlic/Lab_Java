@@ -21,6 +21,8 @@ public class D09 {
 				System.out.println("잘못 입력하셨습니다");
 			}
 		}
+		
+		s.close();
 	}
 	
 	public int calDan(int count) {

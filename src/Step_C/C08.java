@@ -24,6 +24,8 @@ public class C08 {
 		num3 = s.nextInt();
 		
 		calculate();
+		
+		s.close();
 	}
 	
 	public void calculate() {

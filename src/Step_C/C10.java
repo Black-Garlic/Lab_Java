@@ -24,6 +24,8 @@ public class C10 {
 		operator = s.nextLine();
 		
 		calculate();
+		
+		s.close();
 	}
 	
 	public void calculate() {

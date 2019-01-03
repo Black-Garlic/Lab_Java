@@ -20,6 +20,8 @@ public class D02 {
 			if (number < 0 || number > 100) break;
 			calculate();
 		}
+		
+		s.close();
 	}
 	
 	public void calculate() {

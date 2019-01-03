@@ -33,6 +33,7 @@ public class G06 {
 			printCharge();
 		}
 		printTotalCharge();
+		s.close();
 	}
 	
 	public void calSale() {

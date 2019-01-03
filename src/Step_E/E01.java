@@ -15,6 +15,8 @@ public class E01 {
 		
 		System.out.print("정사각형의 크기를 입력하세요 ");
 		length = s.nextInt();
+		
+		s.close();
 	}
 	
 	public void printRect() {

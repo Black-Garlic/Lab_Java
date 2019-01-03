@@ -32,6 +32,7 @@ public class H08 {
 				printResult();
 			}
 		}
+		s.close();
 	}
 	
 	public void printResult() {

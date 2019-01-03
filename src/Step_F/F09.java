@@ -24,6 +24,7 @@ public class F09 {
 		} else {
 			calDays();
 		}
+		s.close();
 	}
 	
 	public void calDays() {

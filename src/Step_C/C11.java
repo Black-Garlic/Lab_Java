@@ -14,6 +14,8 @@ public class C11 {
 		
 		System.out.print("년도를 입력하세요 ");
 		year = s.nextInt();
+		
+		s.close();
 	}
 	
 	public void printYear() {

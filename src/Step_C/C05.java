@@ -8,10 +8,10 @@ public class C05 {
 	private int day_count;
 	
 	public C05() {
-		getSeconds();
+		getDays();
 	}
 	
-	public void getSeconds() {
+	public void getDays() {
 		Scanner s = new Scanner(System.in);
 		
 		System.out.print("월을 입력하세요. ");
@@ -21,6 +21,8 @@ public class C05 {
 		
 		day_count = 1;
 		calculate();
+		
+		s.close();
 	}
 	
 	public void calculate() {

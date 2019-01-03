@@ -25,6 +25,7 @@ public class F05 {
 			bmilist[i][1] = weight;
 			bmilist[i][2] = bmi;
 		}
+		s.close();
 	}
 	
 	public void printBMI() {

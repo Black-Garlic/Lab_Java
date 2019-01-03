@@ -17,6 +17,8 @@ public class C03 {
 		width = s.nextInt();
 		System.out.print("직사각형의 가로 크기를 입력하시오. ");
 		height = s.nextInt();
+		
+		s.close();
 	}
 	
 	public void printArea() {

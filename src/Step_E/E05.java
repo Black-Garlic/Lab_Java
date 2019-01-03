@@ -17,6 +17,8 @@ public class E05 {
 		mode = s.nextInt();
 		System.out.print("한 줄에 출력할 갯수를 입력하세요 ");
 		column = s.nextInt();
+		
+		s.close();
 	}
 	
 	public int calculate(int dan, int j) {

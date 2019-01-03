@@ -19,5 +19,7 @@ public class A05 {
 		seconds = days * 24 * 60 * 60;
 		
 		System.out.println("날 수에 해당되는 시간은 모두 " + seconds + "초입니다.");
+		
+		s.close();
 	}
 }

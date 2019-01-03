@@ -17,6 +17,8 @@ public class C09 {
 		income = s.nextInt();
 		
 		calculate();
+		
+		s.close();
 	}
 	
 	public void calculate() {

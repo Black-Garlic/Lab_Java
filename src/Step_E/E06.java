@@ -16,6 +16,7 @@ public class E06 {
 		System.out.print("출력하려는 행의 크기와 열의 크기를 입력하세요 ");
 		rows = s.nextInt();
 		columns = s.nextInt();
+		s.close();
 	}
 	
 	public void printNum() {

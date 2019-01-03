@@ -20,6 +20,8 @@ public class B03 {
 		height = s.nextInt();
 		
 		area = width * height;
+		
+		s.close();
 	}
 	
 	public void printArea() {

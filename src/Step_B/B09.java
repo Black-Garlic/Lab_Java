@@ -20,6 +20,8 @@ public class B09 {
 		weight = s.nextInt();
 		
 		bmi = weight  * 10000 / (height * height);
+		
+		s.close();
 	}
 	
 	public void printBMI() {

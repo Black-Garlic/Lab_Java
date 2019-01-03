@@ -25,6 +25,8 @@ public class B06 {
 		
 		total = kor + eng + math;
 		average = (double) total / 3;
+		
+		s.close();
 	}
 	
 	public void printScore() {

@@ -17,5 +17,7 @@ public class A02 {
 		c_degree = s.nextDouble();
 		f_degree = c_degree * 1.8 + 32;
 		System.out.println("화씨 온도는 " + f_degree + "입니다.");
+		
+		s.close();
 	}
 }

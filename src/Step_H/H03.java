@@ -28,8 +28,8 @@ public class H03 {
 				count++;
 			}
 		}
-		
 		printLotto();
+		s.close();
 	}
 	
 	public void generateLotto() {

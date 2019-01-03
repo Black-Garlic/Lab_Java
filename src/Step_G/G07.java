@@ -34,6 +34,7 @@ public class G07 {
 			printSale(i);
 		}
 		printTotalSale();
+		s.close();
 	}
 	
 	public void calSale() {

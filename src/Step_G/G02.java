@@ -7,9 +7,7 @@ public class G02 {
 	private double degrees[] = new double[10];
 	private String degree_name[] = {"³Ã¼ö", "¹Ì¿Â¼ö", "¿Â¼ö", "²ú´Â¹°"};
 	private int count[] = {0, 0, 0, 0};
-	private int sel;
-	
-	
+		
 	public G02() {
 		getDegree();
 	}
@@ -28,6 +26,7 @@ public class G02 {
 				i++;
 			}
 		}
+		s.close();
 	}
 	
 	public int calDegree(int index) {

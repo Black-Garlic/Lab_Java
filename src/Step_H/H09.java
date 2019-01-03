@@ -26,6 +26,7 @@ public class H09 {
 				printResult();
 			}
 		}
+		s.close();
 	}
 	
 	public void splitUser() {

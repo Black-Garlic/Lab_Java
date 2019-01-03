@@ -23,6 +23,7 @@ public class G05 {
 			addCharge();
 		}
 		printCharge();
+		s.close();
 	}
 	
 	public void changeHour() {

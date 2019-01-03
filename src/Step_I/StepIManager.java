@@ -52,7 +52,7 @@ public class StepIManager {
 				break;
 			}
 		}
-		
+		s.close();
 	}
 	void printf(String s){System.out.print(s);} 
 }

@@ -25,6 +25,8 @@ public class D04 {
 			birth_year = s.nextInt();
 			calculate();
 		}
+		
+		s.close();
 	}
 	
 	public void calculate() {

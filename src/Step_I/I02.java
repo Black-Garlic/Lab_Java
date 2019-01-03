@@ -21,6 +21,7 @@ public class I02 {
 		blank = s.nextInt();
 		
 		printCharWithBlank(blank, height, shape);
+		s.close();
 	}
 	
 	public void printCharWithBlank(int blanks, int size, char ch) {

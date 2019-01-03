@@ -22,6 +22,7 @@ public class H07 {
 				printResult();
 			}
 		}
+		s.close();
 	}
 	
 	public void printResult() {

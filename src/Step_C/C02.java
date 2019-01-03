@@ -14,6 +14,8 @@ public class C02 {
 		
 		System.out.print("온도를 입력하세요. ");
 		input_degree = s.nextDouble();
+		
+		s.close();
 	}
 	
 	public void printDegree() {

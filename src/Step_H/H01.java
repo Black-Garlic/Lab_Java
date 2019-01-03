@@ -31,6 +31,7 @@ public class H01 {
 				break;
 			}
 		}
+		s.close();
 	}
 	
 	public int judgeNum() {

@@ -2,14 +2,6 @@ package Step_E;
 
 import java.util.Scanner;
 
-import Step_A.A01;
-import Step_A.A02;
-import Step_A.A03;
-import Step_A.A04;
-import Step_A.A05;
-import Step_A.A06;
-import Step_A.A07;
-
 public class StepEManager {
 	public StepEManager() {
 		int menu;
@@ -55,7 +47,7 @@ public class StepEManager {
 				break;
 			}
 		}
-		
+		s.close();
 	}
 	void printf(String s){System.out.print(s);} 
 }

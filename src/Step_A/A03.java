@@ -24,5 +24,7 @@ public class A03 {
 		area = width * height;
 		
 		System.out.println("직사각형의 넓이는 " + area + "입니다.");
+		
+		s.close();
 	}
 }
