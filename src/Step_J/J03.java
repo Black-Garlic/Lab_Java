@@ -27,7 +27,6 @@ public class J03 {
 				i++;
 			}
 		}
-		s.close();
 	}
 	
 	public byte askWater(double degree) {

@@ -34,7 +34,5 @@ public class A06 {
 		System.out.print("평균은 ");
 		System.out.printf("%.1f", average);
 		System.out.println("입니다.");
-		
-		s.close();
 	}
 }

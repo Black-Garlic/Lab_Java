@@ -24,9 +24,7 @@ public class D04 {
 			System.out.print("태어난 년도를 입력하세요 ");
 			birth_year = s.nextInt();
 			calculate();
-		}
-		
-		s.close();
+		}		
 	}
 	
 	public void calculate() {

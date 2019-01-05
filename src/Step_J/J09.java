@@ -17,7 +17,6 @@ public class J09 {
 			System.out.println("잘못 입력하셨습니다");
 		
 		System.out.println("\n" + num1 + "의 " + num2 + "승은 " + power(num1, num2) + " 입니다");
-		s.close();
 	}
 	
 	public int power(int num1, int num2) {

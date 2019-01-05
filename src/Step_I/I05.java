@@ -17,7 +17,6 @@ public class I05 {
 		}
 		
 		printResult(MaxOfTen());
-		s.close();
 	}
 	
 	public int MaxOfTen() {

@@ -25,7 +25,6 @@ public class J01 {
 				count_age[askAge(birth_year)]++;
 			}
 		}
-		s.close();
 	}
 	
 	public int askAge(int birthyear) {

@@ -21,8 +21,6 @@ public class C07 {
 		kind = s.nextByte();
 		
 		bytes = megabytes * 1024 * 1024;
-		
-		s.close();
 	}
 	
 	public double calculate() {

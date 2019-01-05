@@ -21,8 +21,6 @@ public class B02 {
 		kind = s.nextLine();
 		
 		convert();
-		
-		s.close();
 	}
 	
 	public void convert() {

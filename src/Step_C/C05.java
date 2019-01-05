@@ -21,8 +21,6 @@ public class C05 {
 		
 		day_count = 1;
 		calculate();
-		
-		s.close();
 	}
 	
 	public void calculate() {

@@ -19,7 +19,5 @@ public class A01 {
 		age = 2018 - birth_year + 1;
 		
 		System.out.println("당신의 나이는 " + age + "살입니다");
-		
-		s.close();
 	}
 }

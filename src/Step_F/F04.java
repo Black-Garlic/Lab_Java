@@ -26,7 +26,6 @@ public class F04 {
 			jumsu[i][2] = math;
 		}
 		calculate();
-		s.close();
 	}
 	
 	public void calculate() {

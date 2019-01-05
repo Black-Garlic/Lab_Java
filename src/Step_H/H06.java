@@ -23,7 +23,6 @@ public class H06 {
 		getPow();
 		getMax();
 		getMin();
-		s.close();
 	}
 	
 	public void getPow() {

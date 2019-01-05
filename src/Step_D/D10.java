@@ -15,8 +15,6 @@ public class D10 {
 		System.out.print("2개의 숫자를 입력하세요 ");
 		num1 = s.nextInt();
 		num2 = s.nextInt();
-		
-		s.close();
 	}
 	
 	public void printNum() {

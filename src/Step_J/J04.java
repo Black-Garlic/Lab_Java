@@ -27,8 +27,6 @@ public class J04 {
 			printDay(false, 0);
 		else
 			printDay(true, calGap(first_day_count, second_day_count));
-		
-		s.close();
 	}
 	
 	public int calDate(int month, int day) {

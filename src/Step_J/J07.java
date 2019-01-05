@@ -19,7 +19,6 @@ public class J07 {
 			
 			System.out.println("2ÀÇ " + number + "½ÂÀº : " + poweroftwo(number));
 		}
-		s.close();
 	}
 	
 	public int poweroftwo(int n) {

@@ -28,8 +28,6 @@ public class D06 {
 			calculate();
 			printPyung();
 		}
-		
-		s.close();
 	}
 	
 	public void printPyung() {

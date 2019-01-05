@@ -23,7 +23,6 @@ public class I01 {
 			}
 			calMenu();
 		}
-		s.close();
 	}
 	
 	public void showMenu() {

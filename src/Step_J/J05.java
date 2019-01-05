@@ -41,7 +41,6 @@ public class J05 {
 			count++;
 		}
 		printTotalCharge();
-		s.close();
 	}
 	
 	public int calcParking(int start_h, int start_m, int end_h, int end_m) {

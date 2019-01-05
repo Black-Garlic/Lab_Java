@@ -17,7 +17,6 @@ public class H05 {
 		
 		System.out.print("사용하실 코인의 개수를 입력하세요 ");
 		coins = s.nextInt();
-		s.close();
 	}
 	
 	public void playSlotmachine() {
@@ -47,7 +46,6 @@ public class H05 {
 			System.out.println("남아있는 코인은 " + coins + "개 입니다");
 		}
 		printEnd();
-		s.close();
 	}
 	
 	public void generateSlot() {

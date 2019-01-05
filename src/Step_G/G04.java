@@ -32,7 +32,6 @@ public class G04 {
 			}
 		}
 		printCharge();
-		s.close();
 	}
 	
 	public void sell() {

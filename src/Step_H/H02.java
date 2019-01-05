@@ -23,7 +23,6 @@ public class H02 {
 			System.out.print("더 만드시겠습니까? (Y/N) ");
 			onemore = s.nextLine();
 		}
-		s.close();
 	}
 	
 	public void generateLotto() {

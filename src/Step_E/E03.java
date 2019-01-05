@@ -14,8 +14,6 @@ public class E03 {
 		
 		System.out.print("이등변 삼각형의 높이를 입력하세요 ");
 		height = s.nextInt();
-		
-		s.close();
 	}
 	
 	public void printTri() {

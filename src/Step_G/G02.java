@@ -26,7 +26,6 @@ public class G02 {
 				i++;
 			}
 		}
-		s.close();
 	}
 	
 	public int calDegree(int index) {

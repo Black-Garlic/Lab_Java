@@ -22,7 +22,6 @@ public class F02 {
 			findMaxMin(newnum);
 		}
 		calculate();
-		s.close();
 	}
 	
 	public void findMaxMin(int index) {

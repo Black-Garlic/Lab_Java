@@ -30,9 +30,7 @@ public class D05 {
 			height = s.nextInt();
 			if (width < 0 || height < 0) break;
 			calculate();
-		}		
-		
-		s.close();
+		}
 	}
 	
 	public void calculate() {

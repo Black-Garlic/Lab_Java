@@ -16,8 +16,6 @@ public class E02 {
 		System.out.print("직각 삼각형의 높이와 왼쪽 여백의 크기를 입력하세요 ");
 		height = s.nextInt();
 		blank = s.nextInt();
-		
-		s.close();
 	}
 	
 	public void printTri() {

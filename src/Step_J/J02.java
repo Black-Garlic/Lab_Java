@@ -21,7 +21,6 @@ public class J02 {
 		}
 		
 		calSum(score, Max(score), Min(score));
-		s.close();
 	}
 	
 	public double Max(double num[]) {

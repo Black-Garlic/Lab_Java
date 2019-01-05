@@ -31,7 +31,6 @@ public class F08 {
 				count++;
 			}
 		}
-		s.close();
 	}
 	
 	public boolean checkDup(int num) {

@@ -14,8 +14,6 @@ public class E04 {
 		
 		System.out.print("구구단의 출력모드(1: 홀수단, 2: 짝수단)를 입력하세요 ");
 		mode = s.nextInt();
-		
-		s.close();
 	}
 	
 	public int calculate(int dan, int j) {

@@ -37,7 +37,6 @@ public class H04 {
 			}
 		}
 		printResult();
-		s.close();
 	}
 	
 	public void generateCom() {

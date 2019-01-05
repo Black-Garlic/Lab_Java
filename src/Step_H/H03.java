@@ -29,8 +29,8 @@ public class H03 {
 			}
 		}
 		printLotto();
-		s.close();
 	}
+	
 	
 	public void generateLotto() {
 		Random generator = new Random();

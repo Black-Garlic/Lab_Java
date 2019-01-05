@@ -32,7 +32,6 @@ public class G01 {
 			}
 		}
 		count_person--;
-		s.close();
 	}
 	
 	public void calAge(int index) {

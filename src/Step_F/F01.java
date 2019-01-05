@@ -20,7 +20,6 @@ public class F01 {
 			num[i] = s.nextInt();
 			findSecond(i);
 		}
-		s.close();
 	}
 	
 	public void findSecond(int index) {

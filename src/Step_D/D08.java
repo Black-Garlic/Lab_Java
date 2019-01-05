@@ -22,8 +22,6 @@ public class D08 {
 		System.out.print("x좌표의 시작 값과 끝 값을 입력하세요 ");
 		x_begin = s.nextInt();
 		x_end = s.nextInt();
-		
-		s.close();
 	}
 	
 	public void calPoint() {

@@ -24,7 +24,6 @@ public class I06 {
 			}
 		}
 		printResult();
-		s.close();
 	}
 	
 	public byte getRandom() {

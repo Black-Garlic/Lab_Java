@@ -14,9 +14,7 @@ public class E01 {
 		Scanner s = new Scanner(System.in);
 		
 		System.out.print("정사각형의 크기를 입력하세요 ");
-		length = s.nextInt();
-		
-		s.close();
+		length = s.nextInt();	
 	}
 	
 	public void printRect() {

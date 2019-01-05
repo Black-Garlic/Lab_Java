@@ -16,9 +16,7 @@ public class E05 {
 		System.out.print("구구단의 출력모드(1: 홀수단, 2: 짝수단)를 입력하세요 ");
 		mode = s.nextInt();
 		System.out.print("한 줄에 출력할 갯수를 입력하세요 ");
-		column = s.nextInt();
-		
-		s.close();
+		column = s.nextInt();		
 	}
 	
 	public int calculate(int dan, int j) {

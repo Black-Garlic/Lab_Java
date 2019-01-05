@@ -22,8 +22,6 @@ public class B05 {
 		} else {
 			m_count = 0;
 		}
-		
-		s.close();
 	}
 	
 	public void printSecond() {

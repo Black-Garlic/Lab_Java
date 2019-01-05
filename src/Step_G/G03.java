@@ -28,7 +28,6 @@ public class G03 {
 			jumsu[i][2] = math;
 		}
 		calSubjectSum();
-		s.close();
 	}
 	
 	public void calSubjectSum() {

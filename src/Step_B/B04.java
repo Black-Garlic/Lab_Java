@@ -16,8 +16,6 @@ public class B04 {
 		System.out.print("아파트의 분양 면적을 입력하시오 ");
 		m2_area = s.nextDouble();
 		pyung_area = m2_area / 3.305;
-		
-		s.close();
 	}
 	
 	public void printPyung() {
