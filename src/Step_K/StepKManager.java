@@ -24,24 +24,28 @@ public class StepKManager {
 				k01.showMenu();
 				break;
 			case 2:
-				
-				
+				K02 k02 = new K02();
+				k02.showMenu();
 				break;
 			case 3:
-				
-				
+				K03 k03 = new K03();
+				k03.printArea();
 				break;
 			case 4:
-				
-				
+				K04 k04 = new K04();
+				k04.printArea();
 				break;
 			case 5:
-				
-				
+				K05 k05 = new K05();
+				k05.printUser();
 				break;
 			case 6:
-				
-				
+				K06 k06 = new K06();
+				k06.printUser();
+				break;
+			case 7:
+				K07 k07 = new K07();
+				k07.printStudent();
 				break;
 			default:
 				System.out.println("다시 입력해주세요.");

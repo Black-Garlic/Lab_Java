@@ -8,8 +8,6 @@ public class MenuPan {
 	private String from;
 	private int price;
 	
-	public MenuPan() {	}
-	
 	public void getMenu() {
 		Scanner s = new Scanner(System.in);
 		
