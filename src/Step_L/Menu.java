@@ -20,15 +20,7 @@ public class Menu {
 		System.out.println("\t" + name + "\t\t" + from + "\t" + price);
 	}
 	
-	public String getName() {
-		return name;
-	}
-	
-	public String getFrom() {
-		return from;
-	}
-	
-	public int getPrice() {
-		return price;
+	public String getMenu() {
+		return "\t" + name + "\t\t" + from + "\t" + price;
 	}
 }
