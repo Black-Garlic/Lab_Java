@@ -11,6 +11,7 @@ import Step_H.StepHManager;
 import Step_I.StepIManager;
 import Step_J.StepJManager;
 import Step_K.StepKManager;
+import Step_L.StepLManager;
 public class WBManager {
 
 	public static void main(String[] args) {
@@ -40,6 +41,8 @@ public class WBManager {
 			new StepJManager();
 		if(step.equalsIgnoreCase("K") || step.equalsIgnoreCase("ㅏ"))
 			new StepKManager();
+		if(step.equalsIgnoreCase("L") || step.equalsIgnoreCase("ㅣ"))
+			new StepLManager();
 		System.out.printf("종료되었습니다.\n");
 		
 		s.close();
