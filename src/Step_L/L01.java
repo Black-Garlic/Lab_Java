@@ -36,7 +36,6 @@ public class L01 {
 				System.out.println("종료되었습니다");
 				break;
 			}
-				
 		}
 	}
 	
@@ -78,7 +77,7 @@ public class L01 {
 	}
 	
 	public void showMenu() {
-		System.out.println("메뉴번호\t메뉴이름12\t\t원산지\t1인분가격");
+		System.out.println("메뉴번호\t메뉴이름\t\t원산지\t1인분가격");
 		for (int i = 0; i < menu.size(); i++) {
 			System.out.print(i + 1);
 			menu.get(i).printMenu();

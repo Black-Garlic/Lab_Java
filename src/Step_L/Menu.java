@@ -19,4 +19,16 @@ public class Menu {
 	public void printMenu() {
 		System.out.println("\t" + name + "\t\t" + from + "\t" + price);
 	}
+	
+	public String getName() {
+		return name;
+	}
+	
+	public String getFrom() {
+		return from;
+	}
+	
+	public int getPrice() {
+		return price;
+	}
 }
